@@ -1,12 +1,14 @@
 # django-web-app Fun Factory Archieve
 Hi, this is all about [Django](https://www.djangoproject.com/) , a web framework for perfectionists with deadlines!
-django is a full-stack, open-source Python framework designed for efficient web development.
+
+Django is a full-stack, open-source Python framework designed for efficient web development.
+
 This is learning by doing: I am using openclassrooms, a leading E-learning Platform!:rocket:
 
 Go to 
 [django-web-app Site Course](https://openclassrooms.com/en/courses/6967196-create-a-web-application-with-django)
 ```	
-The idea is a MERCH - Merchandise Exchange site, with a list 
+The idea is a MERCHEX - MERCHandise EXchange site, with a list 
 of my favorite bands and titles of other relevant information.
 
 The material, to understand Django framework,
@@ -41,7 +43,8 @@ These are the [Levy, Steven(2010)](https://www.amazon.com/Hackers-Computer-Revol
 * You can *create art and beauty* on a computer;
 * Computer can *change your life for the better*.
 
-Feel at ease to give some feedback!
+ Thanks for your feedback regarding how we can improve our code abilities about this awesome framework: Django! :)
+
 
 Bye!
 
