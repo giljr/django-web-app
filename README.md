@@ -1,5 +1,6 @@
 # django-web-app Fun Factory Archieve
 Hi, this is all about [Django](https://www.djangoproject.com/) , a web framework for perfectionists with deadlines!
+django is a full-stack, open-source Python framework designed for efficient web development.
 This is learning by doing: I am using openclassrooms, a leading E-learning Platform!:rocket:
 
 Go to 
@@ -11,11 +12,11 @@ of my favorite bands and titles of other relevant information.
 The material, to understand Django framework,
 is envisaged as follows:
 
-Part #1 - Course Orientation
+Part #1 - Lay the groundwork for our app using Models, Views, and Templates (MVT)
 	
 Part #2 - Begin a Django App Using Models, Views, and Templates
 
-Part #3 - Manage Data in a Django Database
+Part #3 - Manage our app’s data, using the Django admin
 
 Part #4 - Build a CRUD Interface in Django
 
