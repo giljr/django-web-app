@@ -65,6 +65,7 @@ Please, look inside [django-web-app/docs/screens](docs/screens/) directory to se
 [Online TXT to MD Converter ](https://products.groupdocs.app/viewer/total)
 [Built-in validators](https://docs.djangoproject.com/en/4.1/ref/validators/#built-in-validators)
 [ForeignKey.on_delete](https://docs.djangoproject.com/en/3.2/ref/models/fields/#django.db.models.ForeignKey.on_delete)
+[I need to have a relative link to root of my repo from markdown file](https://stackoverflow.com/questions/40422790/relative-link-to-repos-root-from-markdown-file)
 
 Rollback an Unwanted Migration
 ```shell
