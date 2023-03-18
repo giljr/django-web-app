@@ -31,3 +31,27 @@ VALUES( "Beethoven", "Beethoven - Moonlight Sonata - original manuscript EXTREME
 [Django does allow some logic in its templates. But the logic for, say, making calls to the database is not related to presentation and belongs firmly in the view.](https://docs.djangoproject.com/en/3.1/misc/design-philosophies/#separate-logic-from-presentation)
 
 [\{\% now \%\}  template tag](https://docs.djangoproject.com/en/4.1/ref/templates/builtins/#now)
+
+Tagging v2.0 on github (tagname: v2.0):
+
+\-------------------------------------------------------------------------------------------
+```shell
+git tag -a v2.0 -m "MerchEx - v2.0: Tutorial from http://openclassroom.com" 
+                -m "Step-by-step list:" 
+                -m "1-Separate app logic x presentation;" 
+                -m "2-Add Structure HTML file;" -m "3-Style the site (include an stylesheet);" 
+                -m "4-Use base template (css, static files)."
+
+git push origin v2.0
+```
+\-------------------------------------------------------------------------------------------
+
+Deleting unwanted tag:
+
+\-------------------------------------------------------------------------------------------
+```shell
+git tag -d tagname
+
+git push --delete origin tagname
+```
+\-------------------------------------------------------------------------------------------
