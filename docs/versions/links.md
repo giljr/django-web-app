@@ -33,6 +33,7 @@ VALUES( "Beethoven", "Beethoven - Moonlight Sonata - original manuscript EXTREME
 [\{\% now \%\}  template tag](https://docs.djangoproject.com/en/4.1/ref/templates/builtins/#now)
 
 Code to tagging v2.0 on github (tagname: v2.0):
+Note: run in one line in the terminal.
 
 ```shell
 git tag -a v2.0 -m "MerchEx - v2.0: Tutorial from http://openclassroom.com" 
@@ -84,10 +85,19 @@ If the changes have been shared, it is better to create a new migration, which r
 Sometimes, when working on a project with other developers, you will come across conflicting migrations. If these are affecting different fields or models, you can merge them together; otherwise, delete them and create new migrations instead. 
 
 Code to tagging v3.0 on github (tagname: v3.0):
+Note: run in one line in the terminal.
 
 ```shell
-git tag -a v3.0 -m "MerchEx - v3.0: Tutorial from http://openclassroom.com" -m "Step-by-step list:" -m "1-Capture Data with Model and Field;" -m "2-Perform CRUD operationsin Django Admin;" -m "3-Create manay-to-many relationship (with a FK);" -m "4-Overcome common migration pitfalls 🤪️."
+git tag -a v3.0 -m "MerchEx - v3.0: Tutorial from http://openclassroom.com" 
+                -m "Step-by-step list:" 
+                -m "1-Capture Data with Model and Field;" 
+                -m "2-Perform CRUD operationsin Django Admin;" 
+                -m "3-Create manay-to-many relationship (with a FK);" 
+                -m "4-Overcome common migration pitfalls 🤪️."
 ```
 ### License
 
 [![License: CC BY-NC-ND 3.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
+
+
+
