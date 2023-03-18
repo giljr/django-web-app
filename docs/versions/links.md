@@ -83,3 +83,6 @@ If the changes have been shared, it is better to create a new migration, which r
 
 Sometimes, when working on a project with other developers, you will come across conflicting migrations. If these are affecting different fields or models, you can merge them together; otherwise, delete them and create new migrations instead. 
 
+```shell
+git tag -a v3.0 -m "MerchEx - v3.0: Tutorial from http://openclassroom.com" -m "Step-by-step list:" -m "1-Capture Data with Model and Field;" -m "2-Perform CRUD operationsin Django Admin;" -m "3-Create manay-to-many relationship (with a FK);" -m "4-Overcome common migration pitfalls 🤪️."
+```
