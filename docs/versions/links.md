@@ -1,6 +1,6 @@
 ﻿### Merchex: List of sites visited for
 
-#### V1.0:
+#### [V1.0](tags/):
 
 [Create a Web Application With Django](https://openclassrooms.com/en/courses/6967196-create-a-web-application-with-django)
 
@@ -24,7 +24,7 @@ VALUES( "Beethoven", "Beethoven - Moonlight Sonata - original manuscript EXTREME
 
 \-------------------------------------------------------------------------------------------
 
-#### V2.0:
+#### [V2.0](tags/):
 
 [Write Maintainable Python Code](https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/7010031-s-for-the-single-responsibility-principle)
 
@@ -32,26 +32,54 @@ VALUES( "Beethoven", "Beethoven - Moonlight Sonata - original manuscript EXTREME
 
 [\{\% now \%\}  template tag](https://docs.djangoproject.com/en/4.1/ref/templates/builtins/#now)
 
-Tagging v2.0 on github (tagname: v2.0):
+Code to tagging v2.0 on github (tagname: v2.0):
 
-\-------------------------------------------------------------------------------------------
 ```shell
 git tag -a v2.0 -m "MerchEx - v2.0: Tutorial from http://openclassroom.com" 
                 -m "Step-by-step list:" 
                 -m "1-Separate app logic x presentation;" 
-                -m "2-Add Structure HTML file;" -m "3-Style the site (include an stylesheet);" 
+                -m "2-Add Structure HTML file;" 
+                -m "3-Style the site (include an stylesheet);" 
                 -m "4-Use base template (css, static files)."
 
 git push origin v2.0
 ```
-\-------------------------------------------------------------------------------------------
 
 Deleting unwanted tag:
 
-\-------------------------------------------------------------------------------------------
 ```shell
 git tag -d tagname
 
 git push --delete origin tagname
 ```
-\-------------------------------------------------------------------------------------------
+
+#### [V3.0](tags/):
+
+Please, look inside [django-web-app/docs/screens](docs/screens/) directory to see snapshots about v3 database.
+
+[Django model - IntegerField](https://docs.djangoproject.com/en/4.1/ref/models/fields/#integerfield)
+[stackoverflow- validators = MinValueValidator does not work in Django](https://stackoverflow.com/questions/44022056/validators-minvaluevalidator-does-not-work-in-django)
+[git - tag](https://git-scm.com/docs/git-tag)
+[How To Delete Local and Remote Tags on Git](https://devconnected.com/how-to-delete-local-and-remote-tags-on-git/)
+[Online TXT to MD Converter ](https://products.groupdocs.app/viewer/total)
+[Built-in validators](https://docs.djangoproject.com/en/4.1/ref/validators/#built-in-validators)
+[ForeignKey.on_delete](https://docs.djangoproject.com/en/3.2/ref/models/fields/#django.db.models.ForeignKey.on_delete)
+
+Rollback an Unwanted Migration
+```shell
+python manage.py showmigrations (grab the migration_name)
+python manage.py <appname> <previous_migration_name>
+```
+
+There are two major strategies for reverting changes from migrations: 
+
+1: Roll back the migration locally and delete it, and
+
+2: Delete the migration with a new migration
+
+If the unwanted changes haven’t been shared with other users of machines, you can roll back the migration locally and then delete it.
+
+If the changes have been shared, it is better to create a new migration, which reverts the changes of the unwanted one.
+
+Sometimes, when working on a project with other developers, you will come across conflicting migrations. If these are affecting different fields or models, you can merge them together; otherwise, delete them and create new migrations instead. 
+
