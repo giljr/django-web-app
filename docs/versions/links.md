@@ -1,6 +1,6 @@
 ﻿### Merchex: List of sites visited for
 
-#### [V1.0](tags/):
+#### [V1.0](../../tags/):
 
 [Create a Web Application With Django](https://openclassrooms.com/en/courses/6967196-create-a-web-application-with-django)
 
@@ -24,7 +24,7 @@ VALUES( "Beethoven", "Beethoven - Moonlight Sonata - original manuscript EXTREME
 
 \-------------------------------------------------------------------------------------------
 
-#### [V2.0](tags/):
+#### [V2.0](../../tags/):
 
 [Write Maintainable Python Code](https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/7010031-s-for-the-single-responsibility-principle)
 
@@ -54,7 +54,7 @@ git tag -d tagname
 git push --delete origin tagname
 ```
 
-#### [V3.0](tags/):
+#### [V3.0](../../tags/):
 
 Please, look inside [django-web-app/docs/screens](docs/screens/) directory to see snapshots about v3 database.
 
