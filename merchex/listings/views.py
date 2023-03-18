@@ -5,17 +5,19 @@ from listings.models import Band
 
 def hello(request):
     bands = Band.objects.all()
-    return HttpResponse(
-        f"""
-    <h1>Hello Django!</h1>
-    <p>This is my favorite bands:</p>
-    <ul>
-     <li>{bands[0].name}</li>
-     <li>{bands[1].name}</li>
-     <li>{bands[2].name}</li>
-     <li>{bands[3].name}</li>
-    </ul>            
-        """)
+    return render(request, 'listings/hello.html', context={'bands': bands})
+
+    # return HttpResponse(
+    #     f"""
+    # <h1>Hello Django!</h1>
+    # <p>This is my favorite bands:</p>
+    # <ul>
+    #  <li>{bands[0].name}</li>
+    #  <li>{bands[1].name}</li>
+    #  <li>{bands[2].name}</li>
+    #  <li>{bands[3].name}</li>
+    # </ul>
+    #     """)
 
 
 def about(request):

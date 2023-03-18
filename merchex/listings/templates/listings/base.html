@@ -1,0 +1,26 @@
+<!-- For the  static  tag to work, we first need to “load” it into this template. 
+    We do that by adding a  load  tag at the very beginning of the file, like this -->
+{% load static %}
+<html lang="en">
+
+    <head>
+        <title>Merchex</title>
+        <link rel="stylesheet" href="{% static 'listings/styles.css' %}">
+    </head>
+
+    <body>
+        {% block content %}
+        {% endblock %}
+    </body>
+
+</html>
+
+<!-- 
+    - A base template is a place to define site-wide HTML once, in a single place: keeping your HTML code DRY;
+
+     - Define  block  template tags in your base template;
+       these act as placeholders into which you “inject” the content from your page templates;
+
+     - A base template is an ideal place to load a CSS file using the  static template tag. 
+
+    -->
