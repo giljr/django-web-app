@@ -30,9 +30,9 @@ Go to tags and download each working code package.
 
 BTW, You're more then welcome to visit my Web Pages: 
 
-### Merchex: Versions & A List of sites visited for This Project:
+## Merchex: Versions & A List of sites visited for This Project:
 
-#### [V1.0](/../../tags/):
+### [V1.0](/../../tags/):
 
 Merchex v1.0 - Band & Listing Entities - 
 Step-by-Step list of tasks:
@@ -57,17 +57,13 @@ Links:
 
 Code to insert the last value by sqlite app (DB Browser for SQLite Version 3.12.1):
 
-\-------------------------------------------------------------------------------------------
-
 ```sql
 INSERT INTO listings_band (name, title)
 
 VALUES( "Beethoven", "Beethoven - Moonlight Sonata - original manuscript EXTREMELY RARE.");
 ```
 
-\-------------------------------------------------------------------------------------------
-
-#### [V2.0](/../../tags/):
+### [V2.0](/../../tags/):
 
 MerchEx - v2.0: Tutorial from http://openclassroom.com
       Step-by-step list:
@@ -108,7 +104,7 @@ git tag -d tagname
 git push --delete origin tagname
 ```
 
-#### [V3.0](/../../tags/):
+### [V3.0](/../../tags/):
 
 MerchEx - v3.0: Tutorial from http://openclassroom.com
       Step-by-step list:
