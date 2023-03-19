@@ -34,6 +34,17 @@ BTW, You're more then welcome to visit my Web Pages:
 
 #### [V1.0](/../../tags/):
 
+Merchex v1.0 - Band & Listing Entities - 
+Step-by-Step list of tasks:
+<ol>
+    <li>Install Django; </li>
+    <li>Set new project CL utility; </li>
+    <li>Serve content w/ a View; </li>
+    <li>Save data to db (model & Migrate).</li>
+</ol>
+
+Links:
+
 [Create a Web Application With Django](https://openclassrooms.com/en/courses/6967196-create-a-web-application-with-django)
 
 [A Django Blog In VS Code — Quick Start!](https://medium.com/jungletronics/a-django-blog-in-vs-code-fb23335d9196)
@@ -57,6 +68,17 @@ VALUES( "Beethoven", "Beethoven - Moonlight Sonata - original manuscript EXTREME
 \-------------------------------------------------------------------------------------------
 
 #### [V2.0](/../../tags/):
+
+MerchEx - v2.0: Tutorial from http://openclassroom.com
+      Step-by-step list:
+<ol>
+    <li>Separate app logic x presentation;</li>
+    <li>Add Structure HTML file;</li>
+    <li>Style the site(include an stylesheet);</li>
+    <li>Use base template (css, static files).</li>
+</ol>
+
+Links:
 
 [Write Maintainable Python Code](https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/7010031-s-for-the-single-responsibility-principle)
 
@@ -88,7 +110,18 @@ git push --delete origin tagname
 
 #### [V3.0](/../../tags/):
 
+MerchEx - v3.0: Tutorial from http://openclassroom.com
+      Step-by-step list:
+<ol>
+    <li>Capture Data with Model and Field;</li>
+    <li>Perform CRUD operationsin Django Admin;</li>
+    <li>Create manay-to-many relationship (with a FK);</li>
+    <li>Overcome common migration pitfalls zany_face.</li>
+</ol>
+
 Please, look inside [django-web-app/docs/screens](docs/screens/) directory to see snapshots about v3 database.
+
+Links:
 
 [Django model - IntegerField](https://docs.djangoproject.com/en/4.1/ref/models/fields/#integerfield)
 [stackoverflow- validators = MinValueValidator does not work in Django](https://stackoverflow.com/questions/44022056/validators-minvaluevalidator-does-not-work-in-django)
