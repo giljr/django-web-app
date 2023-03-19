@@ -127,10 +127,11 @@ git tag -a v3.0 -m "MerchEx - v3.0: Tutorial from http://openclassroom.com"
                 -m "2-Perform CRUD operationsin Django Admin;" 
                 -m "3-Create manay-to-many relationship (with a FK);" 
                 -m "4-Overcome common migration pitfalls 🤪️."
+
 git push origin v3.0
 ```
 
-Thanks for your feedback regarding how we can improve our code abilities about this awesome framework: Django! :)
+Thanks for your feedback regarding how we can improve our code abilities about this awesome framework: Django! 😘️
 
 
 Bye!
