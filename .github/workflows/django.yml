@@ -17,5 +17,5 @@ jobs:
         server: giljr.github.io
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server_dir: /merchex/
-        python manage.py test
+        server_dir: /django-web-app/
+      
