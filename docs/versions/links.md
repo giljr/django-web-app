@@ -56,7 +56,7 @@ git push --delete origin tagname
 
 #### [V3.0](/../../tags/):
 
-Please, look inside [django-web-app/docs/screens](screens/) directory to see snapshots about v3 database.
+Please, look inside [django-web-app/docs/screens](/../../docs/screens/) directory to see snapshots about v3 database.
 
 [Django model - IntegerField](https://docs.djangoproject.com/en/4.1/ref/models/fields/#integerfield)
 [stackoverflow- validators = MinValueValidator does not work in Django](https://stackoverflow.com/questions/44022056/validators-minvaluevalidator-does-not-work-in-django)
