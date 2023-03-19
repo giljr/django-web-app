@@ -1,7 +1,7 @@
-on: push
+on:
   push:
     branches:
-    -master
+      - master
 name: 🚀 Deploy django website on push
 jobs:
   web-deploy:
