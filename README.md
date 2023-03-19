@@ -120,13 +120,24 @@ Please, look inside [django-web-app/docs/screens](docs/screens/) directory to se
 Links:
 
 [Django model - IntegerField](https://docs.djangoproject.com/en/4.1/ref/models/fields/#integerfield)
+
 [stackoverflow- validators = MinValueValidator does not work in Django](https://stackoverflow.com/questions/44022056/validators-minvaluevalidator-does-not-work-in-django)
+
 [git - tag](https://git-scm.com/docs/git-tag)
+
 [How To Delete Local and Remote Tags on Git](https://devconnected.com/how-to-delete-local-and-remote-tags-on-git/)
+
 [Online TXT to MD Converter ](https://products.groupdocs.app/viewer/total)
+
 [Built-in validators](https://docs.djangoproject.com/en/4.1/ref/validators/#built-in-validators)
+
 [ForeignKey.on_delete](https://docs.djangoproject.com/en/3.2/ref/models/fields/#django.db.models.ForeignKey.on_delete)
+
 [I need to have a relative link to root of my repo from markdown file](https://stackoverflow.com/questions/40422790/relative-link-to-repos-root-from-markdown-file)
+
+[Semantic Versioning 2.0.0](https://semver.org/)
+
+[Markdown - Basic Syntax](https://www.markdownguide.org/basic-syntax/
 
 Rollback an Unwanted Migration
 ```shell
