@@ -1,0 +1,46 @@
+{% extends 'listings/base.html' %}
+{% block content %}
+    <h2>{{ band.name }}</h2>
+    <ul>
+        <li>Genre: {{ band.get_genre_display }}</li>
+        {# <li>Genre: {{ band.genre }}</li> #}
+        <li>Year Formed: {{ band.year_formed }}</li>
+        <li>Active: {{ band.active|yesno }}</li>
+        {# <li>Active: {{ band.active }}</li> #}
+        <li><a href="{{ band.official_homepage }}">{{ band.official_homepage }}</a></li>
+        {# <li>{{ band.official_homepage }}</li> #}
+    </ul>
+
+    <p>{{ band.biography }}</p>
+    <a href="{% url 'band-update' band.id %}">Edit this band</a>
+    <a href="{% url 'band-delete' band.id %}">Delete this band</a>
+    {# the band detail view should have a link back to the band list: #}
+    <a href="{% url 'band-list' %}">Back to all Bands</a>
+{% endblock %} 
+
+
+{# How to put comments in Django templates? #}
+{# https://stackoverflow.com/questions/719915/how-to-put-comments-in-django-templates  #}
+
+
+{#% extends 'listings/base.html' %#}
+{#% block content %#}
+    <h2>The id is {{ id }}</h2>
+{#% endblock %#} 
+
+{#
+    We could have 100’s or 1000’s of bands in our database, 
+    and we could display any one of them in this view 
+    just by placing its id in the URL.
+
+    Django added this method get_genre_display for us to convert genre database values (e.g., ’HH’ ) into their display
+    format (e.g., ’Hip Hop’ ).
+    
+    Let’s also use the yesno template filter on the active field to convert ‘True’ to ‘Yes.’ We'll make the official
+    homepage into a clickable link.
+    
+    We should also remember that official_homepage might be empty (it’s a nullable field), so we should first check that it
+    exists with an if statement.
+#}
+
+

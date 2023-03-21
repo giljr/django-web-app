@@ -1,0 +1,10 @@
+{% extends 'listings/base.html' %}
+{% block content %}
+    <h1>Lists</h1>
+    <p>This is a Listings list:</p>
+    <ul>
+        {% for listing in listings %}
+            <li>{{ listing.title }} - <a href="{% url 'listing-delete' listing.id %}">Delete</a></li> 
+        {% endfor %}
+    </ul> 
+{% endblock content %}

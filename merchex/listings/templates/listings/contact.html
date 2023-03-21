@@ -1,0 +1,29 @@
+<p>We're here to help.</p>
+
+<form action="" method="post" novalidate>
+{% csrf_token %}
+{{ form.as_p }}
+<input type="submit" value="Submit">
+</form>
+
+{# comments:                                                                                 #}
+
+{#   form.as_p: This wraps each label-field pair in a  <p>  tag,                             #}
+{#               thus stacking them                                                          #}
+    
+{#    The  action:  attribute means “the URL where we’ll send the form data.”                #}
+{#                  If you set this to an empty string - or indeed omit the                  #}
+{#                  attribute altogether - it will be sent back to the URL                   #}
+{#                  of the page we are already on - i.e.. http://127.0.0.1:8000/contact-us/. #} 
+{#                  That means we will handle the form data in our  contact  view.           #}
+
+{#    method  is set to  post: that means the data will be sent as an HTTP POST request.     #}
+{#                             That’s a little different to the GET requests we’ve been      #}
+{#                             using because in addition to a “method” and a “path,” it      #}
+{#                             also includes a request “body” that contains the form data.   #}
+    
+{#    novalidate:  disables your browser’s form validation. This is a helpful feature of     #}
+{#                 most browsers.                                                            #}
+    
+{#    We know our form data will be arriving at the server as a POST request,                #}    
+{#    so now we can handle POST requests in our view.                                        #}

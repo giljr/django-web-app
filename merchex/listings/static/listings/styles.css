@@ -9,10 +9,21 @@ will have default styling applied to them by your browser.
 If you’re happy with that, you can simply use a blank CSS file. 
 This is what I’ll do for this code 
 
-To test css, uncomment here:
+I’ve added  .errorlist { margin-bottom: -10px } to my CSS file 
+to make it more obvious which error belongs to which input
+
+To test css, uncomment background-color tag bellow:
 */
 
 /* * {
     background-color: red;
 } */
+ 
+
+.errorlist { margin-bottom: -10px; 
+    color: red;
+}
+
+
+
 

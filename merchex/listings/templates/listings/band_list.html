@@ -1,0 +1,38 @@
+{% extends 'listings/base.html' %}
+{% block content %}
+    <h1>Bands</h1>
+    <a href="{% url 'band-create' %}">Create new Band</a>
+    <p>This is my favorite bands:</p>
+    <ul>
+        {% for band in bands %}
+            <li><a href="{% url 'band-detail' band.id %}">{{ band.name }}</a> - <a href="{% url 'band-update' band.id %}">[edit]</a>- <a href="{% url 'band-delete' band.id %}">[delete]</a></li>
+            
+            
+            {# <li><a href="/bands/{{ band.id }}/">{{ band.name }}</a></li> #}
+            {# <li>{{ band.name }}</li> #}    
+
+        {% endfor %}
+    </ul> 
+{% endblock content %}
+
+
+{# comments:
+
+Remember that each of your page templates should end up having:
+
+- An  *extends* tag.
+
+- A  *block* tag.
+
+- An  *endblock* tag. 
+
+
+It’s great that we can access the page for De La Soul by visiting http://127.0.0.1:8000/bands/1/ - but do we really expect our users to know that ‘1’ is the id for De La Soul and to type that into the address bar? Of course not! 
+
+Many users won’t even look at the address bar while they’re browsing a site. This is evident by the fact that some modern browsers like Safari now hide the URL path in the address bar!
+
+Most users implicitly expect to be guided through the site by intuitive navigation elements, like hyperlinks.
+
+Let’s update the list view template so that each band name becomes a clickable link that takes us to the detail view for that band.
+
+#}

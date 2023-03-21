@@ -171,8 +171,46 @@ git tag -a v3.0 -m "MerchEx - v3.0: Tutorial from http://openclassroom.com"
                 -m "3-Create manay-to-many relationship (with a FK);" 
                 -m "4-Overcome common migration pitfalls 🤪️."
 
-git push origin v3.0
+
 ```
+### [V4.0](/../../tags/):
+
+MerchEx - v4.0: Tutorial from http://openclassroom.com
+      Step-by-step list:
+<ol>
+    <li>Read data in a List View & Detail View;</li>
+    <li>Capture User Input With Django Forms;</li>
+    <li>Create Model Object With ModelForm;</li>
+    <li>Update Model Object With ModelForm;</li>
+    <li>Delete Objects Safely With User Confirmation.</li>
+</ol>
+
+Links:
+
+[Django Tips: Recovering Gracefully From ORM Errors](https://www.valentinog.com/blog/orm-errors/)
+[Variable shadowing](https://en.wikipedia.org/wiki/Variable_shadowing)
+[CSS background-color Property](https://www.w3schools.com/cssref/pr_background-color.php)
+[Consistently use dashes instead of underscores in URL names](https://code.djangoproject.com/ticket/25473)
+[How to put comments in Django templates?](https://stackoverflow.com/questions/719915/how-to-put-comments-in-django-templates)
+
+Code to tagging v2.0 on github (tagname: v2.0):
+> *Note: run in one line in the terminal.*
+
+```shell
+git tag -a v4.0 -m "MerchEx - v4.0: Tutorial from http://openclassroom.com" 
+                -m "Step-by-step list:" 
+                -m "1-Read data in a List View & Detail View;" 
+                -m "2-Capture User Input With Django Forms;" 
+                -m "3-Create Model Object With ModelForm;" 
+                -m '4-Update Model Object With ModelForm;'
+                -m "5-Delete Objects Safely With User Confirmation 🤪️."
+
+git push origin v4.0
+```
+
+I abuse the use of comments, specially in templates lines, of text in the program that are most relevant to me. 
+
+As I improved the code, the old, functional part, was left below as a guide. In 3 months these comments will definitely serve me. Who knows for you too?
 
 Thanks for your feedback regarding how we can improve our code abilities about this awesome framework: Django! 😘️
 
