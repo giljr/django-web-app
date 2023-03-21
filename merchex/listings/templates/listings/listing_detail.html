@@ -1,0 +1,13 @@
+{% extends 'listings/base.html' %}
+{% block content %}
+    <h2>{{ listing.title }}</h2>
+    <ul>
+        <li>Description: {{ listing.description }}</li>
+        <li>Sold: {{ listing.sold|yesno }}</li> 
+        <li>Year: {{ listing.year }}</li>
+        <li>Band_id: {{ listing.band_id }}</li>
+        <li>Type: {{ listing.get_type_display }}</li>
+
+    <a href="{% url 'listing-update' listing.id %}">Edit this listing</a>
+    <a href="{% url 'listing-delete' listing.id %}">Delete this listing</a>
+{% endblock %} 

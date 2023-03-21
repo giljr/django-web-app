@@ -1,6 +1,6 @@
 from django import forms
 
-from listings.models import Band
+from listings.models import Band, Listing
 
 
 class BandForm(forms.ModelForm):
@@ -44,6 +44,12 @@ class BandForm(forms.ModelForm):
 # We can  exclude  them from the form, like this:
 #   fields = '__all__'  # delete this line
 #   exclude = ('active', 'official_homepage')
+
+
+class ListingForm(forms.ModelForm):
+    class Meta:
+        model = Listing
+        fields = '__all__'
 
 
 class ContactUsForm(forms.Form):

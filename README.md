@@ -193,7 +193,7 @@ Links:
 [Consistently use dashes instead of underscores in URL names](https://code.djangoproject.com/ticket/25473)
 [How to put comments in Django templates?](https://stackoverflow.com/questions/719915/how-to-put-comments-in-django-templates)
 
-Code to tagging v2.0 on github (tagname: v2.0):
+Code to tagging v4.0 on github (tagname: v4.0):
 > *Note: run in one line in the terminal.*
 
 ```shell
@@ -206,6 +206,35 @@ git tag -a v4.0 -m "MerchEx - v4.0: Tutorial from http://openclassroom.com"
                 -m "5-Delete Objects Safely With User Confirmation 🤪️."
 
 git push origin v4.0
+```
+
+### [V5.0](/../../tags/):
+
+MerchEx - v5.0: Tutorial from http://openclassroom.com
+      Step-by-step list:
+<ol>
+    <li>Add Create to Listing Object;</li>
+    <li>Add Retrieve to Listing Object;</li>
+    <li>Add Update to Listing Object;</li>
+    <li>Add Delete to Listing Object</li>    
+    <li>Add id to Band Listing;</li>
+    <li>Refactoring urls.py file</li>
+</ol>
+
+Code to tagging v5.0 on github (tagname: v5.0):
+> *Note: run in one line in the terminal.*
+
+```shell
+git tag -a v5.0 -m "MerchEx - v5.0: Tutorial from http://openclassroom.com" 
+                -m "Step-by-step list:" 
+                -m "1-Add Create to Listing Object;" 
+                -m "2-Add Retrieve to Listing Object;" 
+                -m "3-Add Update to Listing Object;" 
+                -m "4-Add Delete to Listing Object;"
+                -m "5-Add id to Band Listing;"
+                -m "6-Refactoring urls.py file 🤪️."
+
+git push origin v5.0
 ```
 
 I abuse the use of comments, specially in templates lines, of text in the program that are most relevant to me. 

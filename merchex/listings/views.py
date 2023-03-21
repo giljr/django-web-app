@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse
 from listings.models import Band, Listing
 
-from listings.forms import ContactUsForm, BandForm
+from listings.forms import ContactUsForm, BandForm, ListingForm
 from django.core.mail import send_mail
 
 
@@ -153,9 +153,38 @@ def band_delete(request, id):
     return render(request, 'listings/band_delete.html', context={'band': band})
 
 
+def listing_create(request):
+    if request.method == 'POST':
+        form = ListingForm(request.POST)
+        if form.is_valid():
+            listing = form.save()
+            return redirect('listing-detail', listing.id)
+    else:
+        form = ListingForm()
+    return render(request, 'listings/listing_create.html', context={'form': form})
+
+
 def listing_delete(request, id):
     listing = Listing.objects.get(id=id)
     if request.method == 'POST':
         listing.delete()
         return redirect('listing-list')
     return render(request, 'listings/listing_delete.html', context={'listing': listing})
+
+
+def listing_update(request, id):
+    listing = Listing.objects.get(id=id)
+
+    if request.method == 'POST':
+        form = ListingForm(request.POST, instance=listing)
+        if form.is_valid():
+            form.save()
+            return redirect('listing-detail', listing.id)
+    else:
+        form = ListingForm(instance=listing)
+    return render(request, 'listings/listing_update.html', context={'form': form})
+
+
+def listing_detail(request, id):
+    listing = get_object_or_404(Listing, id=id)
+    return render(request, 'listings/listing_detail.html', context={'listing': listing})

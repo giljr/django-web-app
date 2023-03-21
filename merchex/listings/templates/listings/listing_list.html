@@ -1,10 +1,11 @@
 {% extends 'listings/base.html' %}
 {% block content %}
     <h1>Lists</h1>
+    <a href="{% url 'listing-create' %}">Create new Listing</a>
     <p>This is a Listings list:</p>
     <ul>
         {% for listing in listings %}
-            <li>{{ listing.title }} - <a href="{% url 'listing-delete' listing.id %}">Delete</a></li> 
+            <li><a href="{% url 'listing-detail' listing.id %}">{{ listing.title }}</a> - <a href="{% url 'listing-update' listing.id %}">Update</a> - <a href="{% url 'listing-delete' listing.id %}">Delete</a></li> 
         {% endfor %}
     </ul> 
 {% endblock content %}
