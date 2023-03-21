@@ -202,7 +202,7 @@ git tag -a v4.0 -m "MerchEx - v4.0: Tutorial from http://openclassroom.com"
                 -m "1-Read data in a List View & Detail View;" 
                 -m "2-Capture User Input With Django Forms;" 
                 -m "3-Create Model Object With ModelForm;" 
-                -m '4-Update Model Object With ModelForm;'
+                -m "4-Update Model Object With ModelForm;"
                 -m "5-Delete Objects Safely With User Confirmation 🤪️."
 
 git push origin v4.0
