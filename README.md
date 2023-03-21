@@ -30,6 +30,9 @@ Go to tags and download each working code package.
 
 BTW, You're more then welcome to visit my Web Pages: 
 
+🤩️[Jungletronics](https://medium.com/jungletronics)🤩️ (Python, C, Arduino, RasPi, PIC, Eagle, Blender, and more) 😍️[KidsTronics](https://medium.com/kidstronics)😍️ (MIT App Inventor, Geogebra, LEGO, Pixy, Unity3D, Arduino For Kids, and more)
+
+
 ## Merchex: Versions & A List of sites visited for This Project:
 
 ### [V1.0](/../../tags/):
