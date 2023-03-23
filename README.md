@@ -210,6 +210,11 @@ git push origin v4.0
 
 ### [V5.0](/../../tags/):
 
+links:
+
+A cool Podcast about [Adam Johnson](https://adamj.eu/)'s book, [**Boost Your Django DX**](https://adamj.eu/tech/2022/01/10/boost-your-django-dx-released/)
+[Episode 97: Improving Your Django and Python Developer Experience](https://realpython.com/podcasts/rpp/97/)
+
 MerchEx - v5.0: Tutorial from http://openclassroom.com
       Step-by-step list:
 <ol>
