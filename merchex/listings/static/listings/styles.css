@@ -14,11 +14,11 @@ to make it more obvious which error belongs to which input
 
 To test css, uncomment background-color tag bellow:
 */
-
-/* * {
-    background-color: red;
-} */
- 
+/* 
+* {
+    background: red;
+}
+  */
 
 .errorlist { margin-bottom: -10px; 
     color: red;
